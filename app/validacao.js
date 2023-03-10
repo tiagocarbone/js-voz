@@ -3,7 +3,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
 
     if (chuteForInvalido(numero)) {
         if (chute.toUpperCase() === "GAME OVER") {
-            document.body.style.backgroundColor = "black";]
+            document.body.style.backgroundColor = "black";
             return (
                 document.body.innerHTML =
                 `
